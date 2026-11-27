@@ -145,6 +145,21 @@ body {
   font-weight: 500;
 }
 
+.badge-link {
+  background: var(--washi-card);
+  color: var(--cinnabar-deep);
+  border: 1px solid rgba(200, 62, 43, 0.35);
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.badge-link:hover,
+.badge-link:focus-visible {
+  background: var(--cinnabar-tint);
+  border-color: var(--cinnabar);
+  outline: none;
+}
+
 .layout {
   display: grid;
   grid-template-columns: 1fr;
