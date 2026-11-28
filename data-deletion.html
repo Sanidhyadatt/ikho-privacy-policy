@@ -5,275 +5,188 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Data Deletion Request & Instructions for IKHO (com.ikho.mistyforgelabs) by MistyForgeLabs — how to delete local app data on your device, third-party Google AdMob/UMP retention limitations, and privacy contact details." />
-  <title>Data Deletion Request — IKHO by MistyForgeLabs</title>
+    content="Data Deletion Request and Ad Privacy Choices instructions for IKHO (com.ikho.mistyforgelabs) by MistyForgeLabs — how to clear local translation data, manage Google AdMob/UMP consent, and contact the developer." />
+  <title>Data Deletion &amp; Ad Privacy Choices — IKHO by MistyForgeLabs</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">Skip to Data Deletion Instructions</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <span class="hanko-mark" aria-hidden="true">端</span>
-        <div class="brand-text">
-          <span class="brand-name">IKHO</span>
-          <span class="brand-subtitle">by MistyForgeLabs</span>
-        </div>
-      </div>
-      <div class="meta-badges">
-        <a class="badge badge-link" href="index.html">Privacy Policy</a>
-        <span class="badge">Effective Date: 27 November 2026</span>
-        <span class="badge badge-muted">Package ID: <code>com.ikho.mistyforgelabs</code></span>
-      </div>
+  <header class="top-bar">
+    <div class="wrap top-bar-inner">
+      <a class="site-id" href="index.html">IKHO <span>by MistyForgeLabs</span></a>
+      <nav class="top-nav" aria-label="Legal pages">
+        <a href="index.html">Privacy Policy</a>
+        <a href="data-deletion.html" aria-current="page">Data Deletion &amp; Ad Choices</a>
+      </nav>
     </div>
   </header>
 
-  <main id="main-content" class="container layout">
-    <aside class="toc-card" aria-label="Section navigation">
-      <h2 class="toc-title">Contents</h2>
-      <nav>
-        <ol class="toc-list">
-          <li><a href="#overview">1. Overview &amp; App Scope</a></li>
-          <li><a href="#delete-local-data">2. Delete Local Data In-App</a></li>
-          <li><a href="#device-uninstall">3. Complete On-Device Removal</a></li>
-          <li><a href="#deleted-vs-remaining">4. What Is Deleted vs. What May Remain</a></li>
-          <li><a href="#third-party-controls">5. Google AdMob / UMP &amp; Ad Controls</a></li>
-          <li><a href="#retention-limitations">6. Retention &amp; Developer Limitations</a></li>
-          <li><a href="#contact">7. Data Deletion Enquiries</a></li>
-        </ol>
-      </nav>
-    </aside>
+  <main id="main-content" class="wrap">
+    <header class="doc-header">
+      <h1>IKHO Data Deletion &amp; Ad Privacy Choices</h1>
+      <p class="doc-meta">
+        Effective Date: 27 November 2026 &middot; App: IKHO (<code>com.ikho.mistyforgelabs</code>) &middot; Developer: MistyForgeLabs
+      </p>
+      <p class="doc-intro">
+        <strong>IKHO</strong> does not use accounts, logins, or MistyForgeLabs cloud servers. Translation history
+        and voice audio remain on your device, while advertising is handled independently by Google AdMob and
+        Google&rsquo;s User Messaging Platform (UMP). This page explains how to delete local data, manage ad
+        consent, and understand retention limits.
+      </p>
+    </header>
 
-    <article class="policy-card">
-      <div class="hero-block">
-        <p class="eyebrow">Data Deletion Request</p>
-        <h1>IKHO Data Deletion Instructions</h1>
-        <p class="lead">
-          This page explains how to delete data stored locally by the <strong>IKHO</strong> Android application
-          (<code>com.ikho.mistyforgelabs</code>), developed by <strong>MistyForgeLabs</strong>, what data is
-          removed when you clear or uninstall the app, and what advertising-related data may still be
-          independently processed by Google under Google&rsquo;s own policies.
-        </p>
+    <nav class="doc-index" aria-label="Table of contents">
+      <p class="doc-index-title">On This Page</p>
+      <ol>
+        <li><a href="#delete-in-app">Delete Local Data Inside IKHO</a></li>
+        <li><a href="#remove-device-data">Full Device Storage Removal</a></li>
+        <li><a href="#deleted-vs-retained">What Is Deleted vs. What May Remain</a></li>
+        <li><a href="#ad-privacy-choices">Ad Privacy Choices &amp; Google Controls</a></li>
+        <li><a href="#retention-limits">Developer Retention Limitations</a></li>
+        <li><a href="#contact">Data Deletion Contact</a></li>
+      </ol>
+    </nav>
 
-        <div class="callout-grid">
-          <div class="callout">
-            <h3>No Accounts or Developer Servers</h3>
-            <p>
-              IKHO has no user accounts or developer-operated cloud servers. Your voice recordings and
-              translations stay on your device, so there is no remote user database held by MistyForgeLabs
-              and no server-side deletion portal is required.
-            </p>
-          </div>
-          <div class="callout callout-accent">
-            <h3>Third-Party Ad SDK Limitation</h3>
-            <p>
-              Banner advertising uses Google AdMob and Google UMP SDKs. MistyForgeLabs cannot access or
-              delete advertising data processed or retained independently by Google under Google&rsquo;s policies.
-            </p>
-          </div>
-        </div>
+    <section id="delete-in-app">
+      <h2>1. How to Delete Locally Stored Data Inside IKHO</h2>
+      <p>
+        You can delete IKHO&rsquo;s active local translation and session data directly inside the app:
+      </p>
+      <ol class="steps">
+        <li>
+          <strong>Translation history:</strong> Open <strong>History &rarr; Clear</strong> and confirm to erase your
+          active conversation history and translated phrases from the History and Translate screens.
+        </li>
+        <li>
+          <strong>App settings and locally stored session data:</strong> Open <strong>Settings &rarr; Clear All</strong>
+          and confirm to clear locally held session data. Active in-memory preferences (UI language, playback speed,
+          default language direction, and auto-detection toggle) also clear when the app process closes or when app
+          storage is cleared in Android.
+        </li>
+      </ol>
+      <p>
+        Microphone PCM audio stays strictly in RAM and is discarded immediately when recording stops or cancels.
+        Temporary synthesized text-to-speech <code>.wav</code> files in the local cache directory are deleted
+        automatically on subsequent playback or player disposal.
+      </p>
+    </section>
+
+    <section id="remove-device-data">
+      <h2>2. Complete On-Device Storage &amp; UMP Cache Removal</h2>
+      <p>
+        If you also want to erase locally cached Google UMP consent preferences stored in Android
+        <code>SharedPreferences</code>, temporary cache files, and extracted AI models (<code>app_flutter/models</code>,
+        ~857&nbsp;MB):
+      </p>
+      <ul>
+        <li>
+          <strong>Clear storage in Android:</strong> Go to device <strong>Settings &rarr; Apps &rarr; IKHO &rarr;
+          Storage &amp; cache &rarr; Clear storage / Clear data</strong>.
+        </li>
+        <li>
+          <strong>Uninstall the app:</strong> Uninstalling <strong>IKHO</strong> deletes the entire private app
+          directory, settings, UMP consent state, and extracted model files from your phone.
+        </li>
+      </ul>
+    </section>
+
+    <section id="deleted-vs-retained">
+      <h2>3. What Data Is Deleted vs. What Data May Remain</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Data Category</th>
+              <th>Action</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Locally stored translation history &amp; session settings</strong></td>
+              <td><strong>History &rarr; Clear</strong>, <strong>Settings &rarr; Clear All</strong>, or closing / clearing app data</td>
+              <td>Deleted from active app memory and local session state. MistyForgeLabs holds zero remote copies.</td>
+            </tr>
+            <tr>
+              <td><strong>Cached UMP consent flags, temp <code>.wav</code> files &amp; local AI models</strong></td>
+              <td>Android <strong>Clear storage / Clear data</strong> or uninstalling IKHO</td>
+              <td>Removed completely from your Android device.</td>
+            </tr>
+            <tr>
+              <td><strong>Google AdMob &amp; Google UMP advertising data</strong></td>
+              <td>Local IKHO clearing or uninstalling</td>
+              <td><strong>May remain with Google:</strong> Advertising IDs (<code>AD_ID</code>), IP/coarse location, ad impressions, and diagnostics already sent while online remain subject to Google&rsquo;s independent policies.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+    </section>
 
-      <section id="overview">
-        <h2>1. Overview &amp; Scope</h2>
-        <p>
-          These deletion instructions apply to the <strong>IKHO</strong> mobile application published by
-          <strong>MistyForgeLabs</strong>. Core speech recognition, neural machine translation, and speech
-          synthesis run offline on your Android device without sending voice audio or translated text to
-          MistyForgeLabs servers.
-        </p>
-        <p>
-          For complete details on how IKHO handles local data, permissions, and third-party advertising SDKs,
-          read the full <a href="index.html">IKHO Privacy Policy</a>.
-        </p>
-      </section>
+    <section id="ad-privacy-choices">
+      <h2>4. Ad Privacy Choices &amp; Google Advertising Controls</h2>
+      <p>
+        When network access is available and regional privacy regulations require consent management, IKHO uses
+        Google UMP and Google Mobile Ads (AdMob) SDKs. You can manage advertising data directly via:
+      </p>
+      <ul>
+        <li>
+          <strong>In-App Ad Privacy Choices:</strong> Where applicable under regional rules (such as EEA/UK/Switzerland
+          GDPR or regulated US states), open <strong>Settings &rarr; PRIVACY &amp; LEGAL &rarr; Ad Privacy Choices</strong>
+          inside IKHO to review, modify, or withdraw ad consent at any time.
+        </li>
+        <li>
+          <strong>Android Advertising ID controls:</strong> Go to Android device
+          <strong>Settings &rarr; Google &rarr; Ads</strong> (or <strong>Privacy &rarr; Ads</strong>) to reset or
+          delete your Advertising ID.
+        </li>
+        <li>
+          <strong>Google privacy documentation:</strong> Review
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a>
+          and
+          <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer" target="_blank">How Google uses information from sites or apps that use our services</a>.
+        </li>
+      </ul>
+    </section>
 
-      <section id="delete-local-data">
-        <h2>2. How to Delete Locally Stored Data in IKHO</h2>
-        <p>
-          You can clear IKHO&rsquo;s locally stored session data directly inside the app at any time:
-        </p>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Data Type</th>
-                <th>In-App Path</th>
-                <th>Effect</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Translation history</strong></td>
-                <td><strong>History &rarr; Clear</strong></td>
-                <td>
-                  Prompts for confirmation and immediately clears your in-session translation history and
-                  conversation messages from the History and Translate views.
-                </td>
-              </tr>
-              <tr>
-                <td><strong>App settings &amp; locally stored session data</strong></td>
-                <td><strong>Settings &rarr; Clear All</strong></td>
-                <td>
-                  Opens the confirmation dialog to clear locally held session translation data. Active
-                  in-memory app preferences (UI language, speech rate, default direction, script
-                  auto-detection) also reset when the app session closes or when app storage is cleared
-                  through Android settings.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p>
-          Temporary synthesized text-to-speech (<code>.wav</code>) audio cache files created for local
-          playback are deleted automatically when another audio clip is played or when the audio player is
-          disposed. Microphone PCM audio is processed in volatile memory (RAM) only and discarded when
-          recording stops or is cancelled.
-        </p>
-      </section>
+    <section id="retention-limits">
+      <h2>5. Applicable Retention Limitations</h2>
+      <p>
+        MistyForgeLabs aims to be clear about what we cannot access or erase:
+      </p>
+      <ul>
+        <li>
+          <strong>No server-side deletion portal exists</strong> because MistyForgeLabs does not operate accounts or
+          cloud servers that store your voice recordings, transcripts, or translations.
+        </li>
+        <li>
+          <strong>MistyForgeLabs does not directly control Google&rsquo;s retention:</strong> Google AdMob and UMP
+          process and retain advertising telemetry independently under Google&rsquo;s own systems and policies.
+          MistyForgeLabs cannot query, export, or delete Google&rsquo;s server-side records for individual devices.
+        </li>
+      </ul>
+    </section>
 
-      <section id="device-uninstall">
-        <h2>3. Removing All Local App Storage, Cached Preferences &amp; Models</h2>
-        <p>
-          If you also want to erase cached Google UMP consent preferences stored on your device, temporary
-          cache files, and the extracted offline AI models directory (<code>app_flutter/models</code>,
-          ~857&nbsp;MB), perform either action in Android:
-        </p>
-        <ul>
-          <li>
-            <strong>Clear App Data:</strong> Open Android <strong>Settings &rarr; Apps &rarr; IKHO &rarr;
-            Storage &amp; cache &rarr; Clear storage / Clear data</strong>.
-          </li>
-          <li>
-            <strong>Uninstall IKHO:</strong> Uninstall <strong>IKHO</strong> from your device to remove the
-            app sandbox, local cache, UMP consent storage, and all extracted AI models permanently.
-          </li>
-        </ul>
-      </section>
-
-      <section id="deleted-vs-remaining">
-        <h2>4. What Data Is Deleted vs. What Data May Remain</h2>
-        <h3>Data Deleted via In-App Options &amp; Device Removal</h3>
-        <ul>
-          <li>
-            <strong>History &rarr; Clear / Settings &rarr; Clear All:</strong> Deletes locally stored
-            translation history and session phrases immediately inside the running app.
-          </li>
-          <li>
-            <strong>Closing / Clearing App Data / Uninstalling:</strong> Resets session settings and removes
-            all app sandbox files, temporary TTS <code>.wav</code> cache files, Android
-            <code>SharedPreferences</code> (including local UMP consent state), and extracted AI models on the
-            device.
-          </li>
-          <li>
-            <strong>Developer servers:</strong> MistyForgeLabs does not operate backend servers or user
-            accounts, so zero copies of your voice audio or translated text exist on MistyForgeLabs systems.
-          </li>
-        </ul>
-
-        <h3>Data That May Remain Independent of Local Deletion</h3>
-        <ul>
-          <li>
-            <strong>Google AdMob &amp; Google UMP SDK Data:</strong> When internet connectivity is available
-            and UMP consent requirements permit ad requests, Google Mobile Ads (AdMob) and Google&rsquo;s User
-            Messaging Platform (UMP) SDK may independently transmit, process, and retain advertising-related
-            device data (such as Android Advertising ID <code>AD_ID</code>, App Set ID, Privacy Sandbox
-            AdServices signals, IP address / approximate location, ad impressions/clicks, and SDK diagnostics)
-            under Google&rsquo;s own policies.
-          </li>
-          <li>
-            <strong>No Developer Control Over Google Retention:</strong> Deleting local translation history or
-            settings via <strong>History &rarr; Clear</strong>, <strong>Settings &rarr; Clear All</strong>,
-            or uninstalling IKHO does <strong>not</strong> delete data previously received or retained
-            independently by Google or its advertising partners. MistyForgeLabs cannot access, view, or erase
-            data held on Google&rsquo;s servers.
-          </li>
-        </ul>
-      </section>
-
-      <section id="third-party-controls">
-        <h2>5. Managing Advertising &amp; Consent Data Controlled by Google</h2>
-        <p>
-          To control or limit advertising data processed independently by Google on your Android device:
-        </p>
-        <ul>
-          <li>
-            <strong>Review or Withdraw Consent In-App:</strong> Where applicable under regional privacy rules
-            (such as EEA/UK/Switzerland GDPR or regulated US state privacy frameworks), open
-            <strong>Settings &rarr; PRIVACY &amp; LEGAL &rarr; Ad Privacy Choices</strong> in IKHO to review
-            or update your UMP privacy preferences.
-          </li>
-          <li>
-            <strong>Reset or Delete Your Android Advertising ID:</strong> Open Android device
-            <strong>Settings &rarr; Google &rarr; Ads</strong> (or <strong>Privacy &rarr; Ads</strong>) to
-            reset or delete your device Advertising ID.
-          </li>
-          <li>
-            <strong>Google Privacy Controls:</strong> Review Google&rsquo;s policies and user data controls at
-            <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">
-              https://policies.google.com/privacy
-            </a>
-            and
-            <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer"
-              target="_blank">
-              https://policies.google.com/technologies/partner-sites
-            </a>.
-          </li>
-        </ul>
-      </section>
-
-      <section id="retention-limitations">
-        <h2>6. Retention &amp; Request Limitations</h2>
-        <p>
-          Please note the exact scope of what <strong>MistyForgeLabs</strong> can and cannot delete upon a data
-          deletion enquiry:
-        </p>
-        <ul>
-          <li>
-            <strong>No server-side deletion mechanism exists for user audio or translations</strong> because
-            MistyForgeLabs never collects, uploads, or stores voice recordings, transcripts, or translations
-            on any server.
-          </li>
-          <li>
-            <strong>No account identifier lookup exists</strong> because IKHO does not use logins, emails, or
-            user profiles inside the app.
-          </li>
-          <li>
-            <strong>Google AdMob / UMP data retention</strong> is governed solely by Google&rsquo;s retention
-            schedules and legal obligations. MistyForgeLabs has no administrative access to delete individual
-            device records stored by Google.
-          </li>
-        </ul>
-      </section>
-
-      <section id="contact" class="contact-section">
-        <h2>7. Contact for Data Deletion Enquiries</h2>
-        <p>
-          If you have any questions about deleting local IKHO data, privacy choices, or advertising SDK
-          disclosures, please contact <strong>MistyForgeLabs</strong>:
-        </p>
-        <div class="contact-box">
-          <p><strong>Developer:</strong> MistyForgeLabs</p>
-          <p><strong>Application:</strong> IKHO (<code>com.ikho.mistyforgelabs</code>)</p>
-          <p>
-            <strong>Data Deletion &amp; Privacy Email:</strong>
-            <a href="mailto:mistyforgelabs@gmail.com">mistyforgelabs@gmail.com</a>
-          </p>
-          <p>
-            <strong>Related Policy:</strong>
-            <a href="index.html">View the full IKHO Privacy Policy</a>
-          </p>
-        </div>
-      </section>
-    </article>
+    <section id="contact">
+      <h2>6. Data Deletion Enquiries</h2>
+      <p>
+        For questions about local data handling in IKHO or assistance with deletion steps, contact
+        <strong>MistyForgeLabs</strong>:
+      </p>
+      <div class="note-block">
+        <p><strong>Developer:</strong> MistyForgeLabs</p>
+        <p><strong>Application:</strong> IKHO (<code>com.ikho.mistyforgelabs</code>)</p>
+        <p><strong>Contact Email:</strong> <a href="mailto:mistyforgelabs@gmail.com">mistyforgelabs@gmail.com</a></p>
+        <p><strong>Privacy Policy:</strong> <a href="index.html">Read full IKHO Privacy Policy</a></p>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
+    <div class="wrap footer-inner">
       <p>&copy; 2026 MistyForgeLabs &middot; IKHO (<code>com.ikho.mistyforgelabs</code>)</p>
-      <p><a href="index.html">Privacy Policy</a> &middot; Effective Date: 27 November 2026</p>
+      <p><a href="index.html">Privacy Policy</a> &middot; Effective 27 November 2026</p>
     </div>
   </footer>
 </body>
